@@ -28,10 +28,10 @@ html  </h4>
   
 <h2> Way of using CSS  </h2>
 <p>
-CSS can be added to HTML documents in 3 ways:
+CSS can be added to HTML documents in 3 ways:  <br>
 
-Inline - by using the style attribute inside HTML elements
-Internal - by using a <style> element in the <head> section
-External - by using a <link> element to link to an external CSS file
+Inline - by using the style attribute inside HTML elements  <br>
+Internal - by using a <style> element in the <head> section <br>
+External - by using a <link> element to link to an external CSS file <br>
   </p>
   
