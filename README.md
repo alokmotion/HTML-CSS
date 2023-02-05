@@ -1,5 +1,9 @@
 # HTML-CSS
 
+
+
+
+
 <h2> HTML <h2>
 
   
@@ -17,3 +21,17 @@ Html </h4>
 <h4> ● What is block level element and inline element in
 html  </h4>
  <h4> ● What is difference between Html and Html5 </h4>
+
+  
+  
+  <h1>CSS</h1>
+  
+<h2> Way of using CSS  </h2>
+<p>
+CSS can be added to HTML documents in 3 ways:
+
+Inline - by using the style attribute inside HTML elements
+Internal - by using a <style> element in the <head> section
+External - by using a <link> element to link to an external CSS file
+  </p>
+  
