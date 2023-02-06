@@ -35,3 +35,5 @@ Internal - by using a <style> element in the <head> section <br>
 External - by using a <link> element to link to an external CSS file <br>
   </p>
   
+  <h2>  anatomy of css </h2>
+  ![image](https://user-images.githubusercontent.com/95286756/216905797-6f753919-1bbd-4ab5-ac11-a1f06af6b48c.png)
