@@ -36,4 +36,5 @@ External - by using a <link> element to link to an external CSS file <br>
   </p>
   
   <h2>  anatomy of css </h2>
-  ![image](https://user-images.githubusercontent.com/95286756/216905797-6f753919-1bbd-4ab5-ac11-a1f06af6b48c.png)
+  ![image](https://user-images.githubusercontent.com/95286756/216906007-b508f9ca-3ea6-4a37-9a59-05e0e34aa850.png)
+
