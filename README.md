@@ -6,6 +6,8 @@
 
 <h2> HTML <h2>
 
+ <h3> What is Tags ? </h3>
+ <p> HTML tags are identifier which is used to  create HTML elements.It's a way to define & create interactive elements. </p>
   
   
 <h4> ● What is <!Doctype html> in Html5 </h4>
