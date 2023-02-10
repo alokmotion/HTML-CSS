@@ -19,6 +19,9 @@
  <h3> HTML Elements </h3> 
   <p> An HTML element is the collection of start and end tags with the content inserted in between them. <br> The HTML element consist of 3 parts <br> i) Opening tag <br> ii)Closing tag <br> iii)Content 
  </p>
+ 
+ <h3> Attribute in html </h3>
+ 
   
 <h4> ● What is <!Doctype html> in Html5 </h4>
 <h4> ● What is difference between div and span in Html </h4>
