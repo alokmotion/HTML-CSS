@@ -21,6 +21,16 @@
  </p>
  
  <h3> Attribute in html </h3>
+ <p> It's a way to pass an additional information to the elements for performing a specific task <br>
+  ⚫src  <br>
+  ⚫style   <br>
+  ⚫alt <br>
+  ⚫title <br>
+  ⚫name <br>
+  
+  
+ </p>
+ 
  
   
 <h4> ● What is <!Doctype html> in Html5 </h4>
