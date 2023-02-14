@@ -62,3 +62,6 @@ External - by using a <link> element to link to an external CSS file <br>
   
   <h2>  anatomy of css </h2>
 ![image](https://user-images.githubusercontent.com/95286756/216906246-c95b93c2-2ec9-4b6d-ad7c-c52b3cb66f37.png)
+ 
+ 
+ <h2> What is the difference between a class and an ID? </h2>
