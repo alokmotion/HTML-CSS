@@ -65,3 +65,4 @@ External - by using a <link> element to link to an external CSS file <br>
  
  
  <h2> What is the difference between a class and an ID? </h2>
+ <p> The only difference between them is that “id” is unique in a page and can only apply to at most one element, while “class” selector can apply to multiple elements.  </p>
