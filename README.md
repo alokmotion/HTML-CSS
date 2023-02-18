@@ -31,7 +31,7 @@
   
  </p>
  
- <h3> Difference between <div> and <span> Tag in HTML </h3>
+ <h3> Difference between "<div>" and "<span>" Tag in HTML </h3>
  <p> Both the tags (<div> and <span>) are used to represent the part of the webpage, <div> tag is used a as block part of the webpage and <span> tag is used as a inline part of the webpage like below: 
  </p>
  
