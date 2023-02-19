@@ -45,7 +45,6 @@ Html </h4>
 <h4> ● What are the formatting tags in html </h4>
 <h4> ● What is difference <b> and <Strong> in html </h4>
 <h4> ● What is view port attribute in html </h4>
-<h4> ● What is attribute in html </h4>
 <h4> ● What is block level element and inline element in
 html  </h4>
  <h4> ● What is difference between Html and Html5 </h4>
