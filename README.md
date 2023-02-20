@@ -49,7 +49,7 @@ Html </h4>
 html  </h4>
  <h4> ● What is difference between Html and Html5 </h4>
 
-  
+  <hr>
   
   <h1>CSS</h1>
   
