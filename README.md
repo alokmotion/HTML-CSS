@@ -39,7 +39,7 @@
  <p>  
 
 <ol>
-</li> Strict Doctype </li> 
+<li> Strict Doctype </li> 
 <li> Transitional Doctype </li>
 <li> Frameset Doctype </li> 
 </ol>
