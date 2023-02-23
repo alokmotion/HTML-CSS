@@ -35,6 +35,16 @@
  <p> Both the tags (<div> and <span>) are used to represent the part of the webpage, <div> tag is used a as block part of the webpage and <span> tag is used as a inline part of the webpage like below: 
  </p>
  
+ <h3> What are the different kinds of Doctypes available? </h3>
+ <p>  
+
+<ol>
+</li> Strict Doctype </li> 
+<li> Transitional Doctype </li>
+<li> Frameset Doctype </li> 
+</ol>
+ </p>
+ 
   
 <h4> ● What is <!Doctype html> in Html5 </h4>
 <h4> ● What is difference between div and span in Html </h4>
