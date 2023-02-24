@@ -60,8 +60,10 @@ html  </h4>
  <h4> ● What is difference between Html and Html5 </h4>
 
   <hr>
-  
+ </h2>
   <h1>CSS</h1>
+ <h2>  What is CSS? </h2>
+ <p> CSS stands for Cascading Style Sheets. It is the language for describing the presentation of Web pages, including colours, layout, and fonts, thus making our web pages presentable to the users. </p>
   
 <h2> Way of using CSS  </h2>
 <p>
