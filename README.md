@@ -64,6 +64,8 @@ html  </h4>
   <h1>CSS</h1>
  <h2>  What is CSS? </h2>
  <p> CSS stands for Cascading Style Sheets. It is the language for describing the presentation of Web pages, including colours, layout, and fonts, thus making our web pages presentable to the users. </p>
+ 
+ <p> CSS describes how HTML elements should be displayed. </p>
   
 <h2> Way of using CSS  </h2>
 <p>
