@@ -47,9 +47,15 @@
  
  
  <h3> Table </h3>
+ <p> 
  ![image](https://user-images.githubusercontent.com/95286756/221424802-e0430233-7d7f-4a57-8f57-f0e96313f22c.png)
 
+ </p>
  
+ <h3> Forms </h3>
+ <p>
+ ![image](https://user-images.githubusercontent.com/95286756/221425064-ad2b4aa8-eb24-4d82-8be6-1506401753ae.png)
+ </p>
   
 <h4> ● What is <!Doctype html> in Html5 </h4>
 <h4> ● What is difference between div and span in Html </h4>
