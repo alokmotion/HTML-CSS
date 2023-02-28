@@ -4,7 +4,29 @@
 
 
 
-<h2> HTML <h2>
+<h1> HTML <h1>
+ 
+ <h2>  What is HTML? </h2>
+ <p> 
+  👉HTML stand for Hypertext Markup Language. <br>
+  👉 It is a programming language used to determines the structure of web pages or documents. <br>
+  👉 HTML elements tell the brower how to display the content. <br>
+ 
+ 
+ </p>
+ 
+ <h2> What is HyperText ? </h2>
+ 
+ <p> 👉 Hypertext is text which contains links to other texts. </p>
+ 
+ <h2> What is Markup language in HTML ? </h2>
+ <p> Markup tells a web browser how to display text, images and other forms of multimedia on a web page. </p>
+ 
+ 
+ <h2>  Structure of the HTML tampalte </h2>
+ 
+ ![WhatsApp Image 2023-02-28 at 07 17 52](https://user-images.githubusercontent.com/95286756/221731851-fd22779d-c204-4e4c-9de4-8d22adffdbc3.jpg)
+
 
  <h3> What is Tags ? </h3>
  <p> HTML tags are identifier which is used to  create HTML elements.It's a way to define & create interactive elements.  <br>
