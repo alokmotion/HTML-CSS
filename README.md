@@ -68,6 +68,8 @@
  </p>
  
  
+ <h3> HTML &60;<svg> &62; Tag </h3>
+ 
  <h3> Table </h3>
  <p> 
  ![image](https://user-images.githubusercontent.com/95286756/221424802-e0430233-7d7f-4a57-8f57-f0e96313f22c.png)
@@ -77,6 +79,9 @@
  <h3> Forms </h3>
  ![table](https://user-images.githubusercontent.com/95286756/221425592-aab55a76-b872-4ffd-9869-78298e23fa37.jpg)
 
+ 
+ 
+ 
   
 <h4> ● What is <!Doctype html> in Html5 </h4>
 <h4> ● What is difference between div and span in Html </h4>
