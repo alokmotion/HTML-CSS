@@ -37,6 +37,13 @@
  
  </p>
  
+ <h3>What Are Semantic HTML Tags? </h3>
+ 
+ <p>
+Semantic HTML tags are tags that define the meaning of the content they contain. 
+
+For example, tags like &lt;header&gt;, &lt;article&gt;, and &lt;footer&gt; are semantic HTML tags. They clearly indicate the role of the content they contain. </p>
+ 
  
  <h3> HTML Elements </h3> 
   <p> An HTML element is the collection of start and end tags with the content inserted in between them. <br> The HTML element consist of 3 parts <br> i) Opening tag <br> ii)Closing tag <br> iii)Content 
@@ -54,7 +61,7 @@
  </p>
  
  <h3> Difference between &lt;div&gt; and &lt;span&gt; Tag in HTML </h3>
- <p> Both the tags (&lt;div&gt; and &lt;span&gt;) are used to represent the part of the webpage, <div> tag is used a as block part of the webpage and <span> tag is used as a inline part of the webpage like below: 
+ <p> Both the tags (&lt;div&gt; and &lt;span&gt;) are used to represent the part of the webpage, &lt;div&gt; tag is used a as block part of the webpage and &lt;span&gt; tag is used as a inline part of the webpage like below: 
  </p>
  
  <h3> What are the different kinds of Doctypes available? </h3>
