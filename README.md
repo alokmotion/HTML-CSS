@@ -53,8 +53,8 @@
   
  </p>
  
- <h3> Difference between "div" and "span" Tag in HTML </h3>
- <p> Both the tags (<div> and <span>) are used to represent the part of the webpage, <div> tag is used a as block part of the webpage and <span> tag is used as a inline part of the webpage like below: 
+ <h3> Difference between &lt;div&gt; and &lt;span&gt; Tag in HTML </h3>
+ <p> Both the tags (&lt;div&gt; and &lt;span&gt;) are used to represent the part of the webpage, <div> tag is used a as block part of the webpage and <span> tag is used as a inline part of the webpage like below: 
  </p>
  
  <h3> What are the different kinds of Doctypes available? </h3>
@@ -68,7 +68,13 @@
  </p>
  
  
- <h3> HTML &60;<svg> &62; Tag </h3>
+ <h3> HTML &lt;svg&gt; Tag </h3>
+  
+  <p> The &lt;svg&gt; tag is used as a container for SVG graphics.
+
+SVG (Scalable Vector Graphics) is a language for two-dimensional graphics based on XML with support for animation and interactivity. To draw images, it uses simple geometrical figures (circle, lines, polygon, etc.)
+   
+   </p>
  
  <h3> Table </h3>
  <p> 
