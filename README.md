@@ -132,3 +132,10 @@ External - by using a <link> element to link to an external CSS file <br>
  
  <h2> What is the difference between a class and an ID? </h2>
  <p> The only difference between them is that “id” is unique in a page and can only apply to at most one element, while “class” selector can apply to multiple elements.  </p>
+ 
+ <h2> box-sizing: border-box </h2>
+ <p> box-sizing: border-box is a CSS property that affects how an element's total width and height are calculated. By default, when you specify a width and height for an element in CSS, those values are applied to the element's content area only. The element's border, padding, and margins are added to the width and height values, resulting in a total width and height that can be larger than you intended.
+
+With box-sizing: border-box, the element's specified width and height include the border and padding values, but not the margin. This means that the content area will be smaller than it would be with the default box-sizing value. The margin values are still added to the total width and height.
+
+<p>
