@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whether App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.css"
+      integrity="sha512-ZH3KB6wI5ADHaLaez5ynrzxR6lAswuNfhlXdcdhxsvOUghvf02zU1dAsOC6JrBTWbkE1WNDNs5Dcfz493fDMhA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="serch-container">
+        <input type="text" placeholder="Enter city name" spellcheck="false" />
+
+        <span><i class="ri-search-line"></i></span>
+      </div>
+
+      <div class="weather">
+
+      <div class="weather-icon">
+        <img
+          src="https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png"
+          alt=""
+        />
+      </div>
+
+      <div class="degree-place">
+        <span class="temp">0°C</span> <br />
+
+        <span class="city">Germany</span>
+      </div>
+
+      <div class="report">
+        <div class="report-icon">
+          <span><i class="ri-water-percent-line"></i></span>
+          <span class="humidity">100% </span> <br />
+          Humidity
+        </div>
+        <div class="report-icon">
+          <span><i class="ri-cloud-windy-line"></i></span><br />
+          <span class="wind">1.5 km/h <br /> </span> <br />
+          Wind Speed
+        </div>
+      </div>
+
+    </div>
+    </div>
+
+    <script>
+      const apikey = "18f2ca7a82e16955334446fd8b2af1fc";
+      const apiurl =
+        "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
+
+      const searchBox = document.querySelector(".serch-container input");
+      const searchBtn = document.querySelector(".serch-container span");
+      const weathericon = document.querySelector(".weather-icon img");
+
+      async function checkWeather(city) {
+        const response = await fetch(apiurl + city + `&appid=${apikey}`);
+        var data = await response.json();
+
+      
+        document.querySelector(".city").innerHTML = data.name;
+        document.querySelector(".temp").innerHTML =
+          Math.round(data.main.temp) + "°C";
+        document.querySelector(".humidity").innerHTML =
+          data.main.humidity + "%";
+        document.querySelector(".wind").innerHTML = data.wind.speed + "km/h";
+
+        if ((data.weather[0].main = "Clouds")) {
+          weathericon.src = "http://openweathermap.org/img/wn/02d@2x.png";
+        } else if ((data.weather[0].main = "Clear")) {
+          weathericon.src = "http://openweathermap.org/img/wn/01d@2x.png";
+        } else if ((data.weather[0].main = "Rain")) {
+          weathericon.src = "http://openweathermap.org/img/wn/10d@2x.png";
+        } else if ((data.weather[0].main = "snow")) {
+          weathericon.src = "http://openweathermap.org/img/wn/13d@2x.png";
+        } else if ((data.weather[0].main = "mist")) {
+          weathericon.src = "http://openweathermap.org/img/wn/50d@2x.png";
+        } else {
+          weathericon.src =
+            "https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png";
+        }
+
+
+        document.querySelector(".weather").style.display = "block";
+      }
+
+      searchBtn.addEventListener("click", () => {
+        checkWeather(searchBox.value);
+      });
+
+
+
+    </script>
+  </body>
+</html>
