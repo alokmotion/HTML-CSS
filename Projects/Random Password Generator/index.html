@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Password</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.css"
+      integrity="sha512-ZH3KB6wI5ADHaLaez5ynrzxR6lAswuNfhlXdcdhxsvOUghvf02zU1dAsOC6JrBTWbkE1WNDNs5Dcfz493fDMhA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <span
+        >Generate a <br />
+        Random Password</span
+      >
+      <div class="input-container">
+        <input class="password" type="text" />
+        <i class="ri-file-copy-line" onclick="copyPassword()"></i>
+      </div>
+
+      <button onclick="createPassword()" >Generate Password</button>
+    </div>
+
+    <script>
+      const passwordBox = document.querySelector(".password");
+      const lenght = 12;
+
+      const upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      const lowerCase = "abcdefghijklmnopqrstuvwxyz";
+      const number = "0123456789";
+      const symbol = "!@#$%^&*()_+{}:>?<";
+
+      const allChars = upperCase + lowerCase + Symbol;
+
+      function createPassword(){
+        let password ="";
+
+        password += upperCase[Math.floor(Math.random()*upperCase.length)];
+        password += lowerCase[Math.floor(Math.random() * lowerCase.length)];
+        password += number[Math.floor(Math.random()*number.length)];
+        password += symbol[Math.floor(Math.random()* symbol.length)];
+
+        while(lenght > password.length){
+
+            password += allChars[Math.floor(Math.random()* allChars.length)];
+
+
+        }
+        passwordBox.value = password;
+
+      }
+
+      function copyPassword(){
+        passwordBox.select();
+        document.execCommand("copy");
+      }
+
+
+
+
+
+
+
+    </script>
+  </body>
+</html>
